@@ -24,6 +24,25 @@
   color: white;
 }
 
+.modal {
+  height: 50px;
+  width: 100px;
+  background-color: #fff;
+  border: 1px solid burlywood;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #282c34;
+  padding: 5px;
+  position: absolute;
+}
+
+h1{
+  position: absolute;
+  top:0;
+  /* margin: auto; */
+  left: 30%;
+}
+
 .App-link {
   color: #61dafb;
 }
