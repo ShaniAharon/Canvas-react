@@ -50,14 +50,8 @@ function App() {
     // const clickedStar = null
     // TODO: find out if clicked a star bar
     const clickedStar = gStars.find(star => {
-      // console.log('hi');
-      // console.log('ev.offsetX', ev.offsetX);
-      // console.log('star.x', star.x);
-      // console.log('ev.offsetY', ev.offsetY);
-      // console.log('star.y', star.y);
-      // console.log('star.rate', star.rate);
-      // console.log(ev.offsetX > star.x && ev.offsetX < star.x + 40 &&
-      //   ev.offsetY > star.y && ev.offsetY < star.y + star.rate);
+
+
       //check if we clicked on a chart 
       return (
         ev.offsetX > star.x && ev.offsetX < star.x + 40 &&
